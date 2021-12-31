@@ -32,3 +32,54 @@
 		}
 	</pre>
 </details>
+
+
+<details>
+   <summary>lower alphabet</summary>
+
+   <pre>
+		#include<stdio.h>
+		#include<ctype.h>
+		main()
+		{
+		    char x;
+		    printf("\n Enter capital letter:");
+		    scanf("%c", &x);
+
+		    /*y=tolower(x);
+		    printf("%c",y);*/
+		    putchar(tolower(x));
+		    getch();
+		   return 0;
+		}
+	</pre>
+</details>
+
+<details>
+   <summary>upper alphabet</summary>
+
+   <pre>
+   	#include<stdio.h>
+		#include<ctype.h>
+		main()
+		{
+		    char x, y;
+		    printf("\n Enter small letter:");
+		    scanf("%c", &y);
+		    putchar(toupper(y));
+
+		    getch();
+		    return 0;
+		}		
+	</pre>
+</details>
+
+
+<details>
+   <summary></summary>
+
+   <pre>
+		
+	</pre>
+</details>
+
